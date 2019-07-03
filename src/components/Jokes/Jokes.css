@@ -1,0 +1,37 @@
+.Jokes{
+    order: 2;
+    text-align: center;
+    flex-grow: 1;
+    margin: 0 10px;
+    max-width: 40vw;
+    padding: 5px 10px;
+    border: 1px solid gray;
+}
+
+.Jokes h2{
+ text-align: center;
+}
+
+.Jokes li:hover{
+  background-color: #B6BBC0;
+  cursor: pointer;
+}
+
+.Jokes ul{
+  list-style: none;
+}
+
+.Jokes li{
+  padding: 10px;
+  border: 1px solid gray;
+  margin: 10px auto;
+  font-size: 14px;
+  background-color: #e7a61a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+}

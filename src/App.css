@@ -1,0 +1,25 @@
+.Header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 10px;
+  flex-grow: 0;
+}
+
+.Header h1{
+  padding: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-grow: 1;
+  font-size: 40px;
+  color: #3D4042;
+  background-color: #e7a61a;
+  border: 1px solid #1C1E1F;
+}
+
+.Main{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}

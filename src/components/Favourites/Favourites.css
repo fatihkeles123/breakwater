@@ -1,0 +1,35 @@
+.Favourites{
+    list-style: none;
+    order: 3;
+    flex-grow: 1;
+    margin: 0 10px;
+    max-width: 40vw;
+    padding: 5px 10px;
+    border: 1px solid gray;
+}
+
+.Favourites h2{
+  text-align: center;
+}
+
+.Favourites li:hover{
+  background-color: #B6BBC0;
+  cursor: pointer;
+  color: black;
+}
+
+.Favourites li{
+  padding: 10px;
+  border: 1px solid gray;
+  margin: 10px auto;
+  font-size: 14px;
+  background-color: #4EA75E;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+}

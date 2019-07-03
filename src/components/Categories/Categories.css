@@ -1,0 +1,31 @@
+.Categories{
+    list-style: none;
+    order: 1;
+    flex-grow: 0;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+.Categories li{
+  padding: 10px;
+  border: 1px solid gray;
+  margin: 10px auto;
+  width: 100px;
+  font-size: 14px;
+  background-color: #74A5BF;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Categories li:hover{
+  background-color: #B6BBC0;
+  cursor: pointer;
+}
+
+.Categories .selected{
+  background-color: #82888C;
+  color: white;
+  font-weight: bold;
+}
