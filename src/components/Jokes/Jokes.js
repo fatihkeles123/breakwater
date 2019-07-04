@@ -15,12 +15,15 @@ class Jokes extends Component {
     }
 
     render () {
+        const favs = this.props.favs;
         let jokes = <Spinner />;
         if ( !this.props.loading ) {
             jokes = this.props.jokes.map( joke => {
               const { id, value } = joke;
-              return <li onClick={() => this.onClickHandler(id, value)} key={id}>{value}</li>
-            });
+              const index = favs.findIndex(fav => fav.id === id);
+              if (!(index+1)) return <li onClick={() => this.onClickHandler(id, value)} key={id}>{value}</li>
+              return null;
+          });
         }
         return (
           <div className="Jokes">
